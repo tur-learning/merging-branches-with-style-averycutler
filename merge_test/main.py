@@ -1,8 +1,9 @@
 from utils import add
-# the above also executes the code of that module, that's why the print function of that script ran
-# so, don't put code in the script you're importing
 
 def main():
+    result = multiply(80.5, 33)
+    print(f"The result of multiplication is {result}")
+
     print("You are on feature a branch")
     a = 10
     b = 50
